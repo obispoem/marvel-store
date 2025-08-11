@@ -30,12 +30,12 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     setItems((prev) => {
       const exists = prev.find((i) => i.id === item.id);
       if (exists) {
-        // Substitui a quantidade pelo novo valor
+        
         return prev.map((i) =>
           i.id === item.id ? { ...i, quantity: item.quantity } : i
         );
       }
-      // Se não existe, adiciona novo
+      
       return [...prev, item];
     });
   }

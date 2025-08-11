@@ -66,7 +66,7 @@ Este projeto é um desafio técnico para vaga de desenvolvedor Front-End Júnior
 3. Rode o projeto com `npm start`
 4. O projeto será aberto em `http://localhost:3000`
 
-O deploy será realizado no Vercel e o link será disponibilizado aqui.
+O deploy será realizado no Vercel: 
 
 ---
 

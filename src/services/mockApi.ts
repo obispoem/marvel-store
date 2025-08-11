@@ -10,7 +10,7 @@ export interface Comic {
 }
 
 export const getMockComics = async (offset: number = 0): Promise<Comic[]> => {
-  // Simulando delay da internet
+
   await new Promise(resolve => setTimeout(resolve, 500));
   
   const mockComics: Comic[] = Array.from({ length: 20 }, (_, i) => ({

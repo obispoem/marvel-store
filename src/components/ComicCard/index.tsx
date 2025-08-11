@@ -11,7 +11,6 @@ interface ComicCardProps {
 }
 
 function ComicCard({ id, title, imageUrl, isRare, price, description }: ComicCardProps) {
-  // const navigate = useNavigate();
 
   return (
     <Link 
