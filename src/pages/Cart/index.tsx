@@ -10,8 +10,8 @@ interface Coupon {
 }
 
 const COUPONS: Coupon[] = [
-  { code: "DESCONTO10", discount: 0.1, type: "comum" },
-  { code: "RARO20", discount: 0.2, type: "raro" },
+  { code: "DESCONTO20", discount: 0.2, type: "comum" },
+  { code: "RARO15", discount: 0.15, type: "raro" },
 ];
 
 export default function Cart() {

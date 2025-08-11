@@ -106,6 +106,10 @@ A implementação está pronta para substituição pela API real quando necessá
 
 ---
 
+## Cupons Mockados  
+- **Comum**: `DESCONTO20` (20% off em HQs comuns).  
+- **Raro**: `RARO15` (15% off em HQs raras).  
+
 ## Deploy
 
 O projeto será publicado no Vercel.  
