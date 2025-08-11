@@ -2,16 +2,19 @@ import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
   background-color: #3b0404ff;
-  padding: 10px 8px;
+  padding: 12px 20px;
   border-bottom: 2px solid #ffd000ff;
-  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
   @media (min-width: 768px) {
-    padding: 12px 32px;
-    justify-content: space-between;
+    padding: 15px 40px;
   }
 `;
 

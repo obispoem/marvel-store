@@ -1,14 +1,16 @@
 import { HeaderContainer, Logo, Cart, CartIcon, CartCount } from "./styles";
+import { useNavigate } from 'react-router-dom';
+import { useContext } from "react";
+import { CartContext } from "../../contexts/CartContext";
 
-interface HeaderProps {
-  cartCount: number;
-}
+function Header() {
+  const navigate = useNavigate();
+  const { cartCount } = useContext(CartContext);
 
-function Header({ cartCount }: HeaderProps) {
   return (
     <HeaderContainer>
-      <Logo src="../logo.jpg" alt="Logo" onClick={() => console.log("Voltar Principal")} />
-      <Cart onClick={() => console.log("Ir Carrinho")}>
+      <Logo src="../logo.jpg" alt="Logo" onClick={() => navigate("/")} />
+      <Cart onClick={() => navigate("/cart")}>
         <CartIcon src="../cartIcon.png" alt="Cart" />
         <CartCount>{cartCount}</CartCount>
       </Cart>
