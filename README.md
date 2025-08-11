@@ -67,7 +67,7 @@ Este projeto é um desafio técnico para vaga de desenvolvedor Front-End Júnior
 4. O projeto será aberto em `http://localhost:3000`
 
 O deploy será realizado no Vercel: 
-
+https://marvel-store-git-master-emanuel-bispos-projects.vercel.app?_vercel_share=vYYNMBLoa4uD0mVlrca79rsW0jarvtQZ
 ---
 
 ## Testes
@@ -113,4 +113,4 @@ A implementação está pronta para substituição pela API real quando necessá
 ## Deploy
 
 O projeto será publicado no Vercel.  
-Link: 
+Link: https://marvel-store-git-master-emanuel-bispos-projects.vercel.app?_vercel_share=vYYNMBLoa4uD0mVlrca79rsW0jarvtQZ
